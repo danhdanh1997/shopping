@@ -16,6 +16,4 @@ class Controller{
         return Controller::loadView('404', "404 Not Found!");
     }
 }
-
-
 ?>

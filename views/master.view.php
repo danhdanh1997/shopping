@@ -74,7 +74,7 @@
               <div class="headerlinkmenu col-lg-8 col-md-7 col-sm-8 col-xs-12">
                 <div class="links">
                   <div class="myaccount">
-                    <a title="My Account" href="account.php">
+                    <a title="My Account" href="signup.php">
                       <i class="fa fa-user"></i>
                       <span class="hidden-xs">My Account</span>
                     </a>

@@ -44,7 +44,7 @@
                                         <option value="Nam">Nam</option>
                                         <option value="Nữ">Nữ</option>
                                         <option value="Khác">Khác</option>
-                                </select>
+                                    </select>
                                 
                             </div><!--/ [col] -->
                             <div class="col-sm-6">

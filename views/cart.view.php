@@ -62,7 +62,7 @@ i.icon-close{
                           <td class="qty">
                             <input class="form-control input-sm
                             txt-qty-<?=$product['item']->id?>" type="text" value="<?=$product['qty']?>">
-                            <i title="Cập nhật" class="glyphicon glyphicon-pencil btn-update"
+                            <i title="Cập nhật" class="glyphicon glyphicon-pencil btn-update" type="submit"
                             data-id="<?=$product['item']->id?>"></i>
                           </td>
                           <td class="price">

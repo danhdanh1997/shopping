@@ -14,5 +14,4 @@ function createToken(int $length = 40){
 //CqSWdCAmOkl2ZZQGPC9w9Q7T6hLVdO0V6kATuolQ
 //0H4hfcc6ODPRjyWLYNwuf7xHFnCCwKhKh9ca0XiG
 //TliqVsHFG2IxrrsVCGDMFp7yCwlRpfFzjdYpn8Fb
-
 ?>

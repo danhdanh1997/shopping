@@ -1,29 +1,15 @@
 
 
+
+
 <section class="main-container col1-layout">
     <div class="main container">
         
-        <?php if(isset($_SESSION['success'])): ?>
-        <div class="alert alert-success">
-            <?php
-                echo $_SESSION['success'];
-                unset($_SESSION['success']);
-                ?>
-        </div>
-        <?php  endif ?>
-        <?php
-        if(isset($_SESSION['error'])):?>
-        <div class="alert alert-danger">
-            <?php
-                echo $_SESSION['error'];
-                unset($_SESSION['error'])
-            ?>
-        </div>
-        <?php endif ?>
+        
         <div class="page-content">          
             <div class="account-login">
                 <div class="box-authentication">
-                    <form action="account.php" type="post">
+                    <form action="signup.php" method="post">
                         <h4>Sign Up</h4>
                         <p class="before-login-text">Welcome back! Sign in to your account</p>
 
@@ -36,9 +22,24 @@
                         <label for="password_login">Password<span class="required">*</span></label>
                         <input id="password_login" type="password" class="form-control" value="" name="password">
 
+                        <label for="fullname_login">fullname<span class="required">*</span></label>
+                        <input id="fullname_login" type="text" class="form-control" value="" name="fullname">
+                        
+                        <label for="birthday_login">birthday<span class="required">*</span></label>
+                        <input id="birthday_login" type="text" class="form-control" value="" name="birthday">
+
+                        <label for="gender_login">gender<span class="required">*</span></label>
+                        <input id="gender_login" type="text" class="form-control" value="" name="gender">
+
+                        <label for="address_login">address<span class="required">*</span></label>
+                        <input id="address_login" type="text" class="form-control" value="" name="address">
+
+                        <label for="phone_login">phone<span class="required">*</span></label>
+                        <input id="emmail_login" type="text" class="form-control" value=""name="phone">
+
                         <p class="forgot-pass"><a href="#">Lost your password?</a></p>
                        
-                        <input type="submit" name="submit"value="">
+                        <input type="submit" value="Signup" name="submit">
                         
                        
                         <!-- <label class="inline" for="rememberme">
